@@ -7,17 +7,7 @@
     {
       "id": "openai-key",
       "label": "OpenAI API Key",
-      "content": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    },
-    {
-      "id": "anthropic-key",
-      "label": "Anthropic API Key",
-      "content": "sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    },
-    {
-      "id": "pinecone-key",
-      "label": "Pinecone API Key",
-      "content": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      "content": "YOUR_OPENAI_API_KEY_PLACEHOLDER"
     }
   ],
   "promptExamples": [
@@ -42,7 +32,7 @@
       "content": "Analyze this UI design and suggest improvements for better user experience. Consider layout, color scheme, typography, and accessibility. Provide specific recommendations that would make this interface more intuitive and engaging."
     }
   ],
-  "deckUrl": "https://docs.google.com/presentation/d/1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/edit?usp=sharing",
+  "deckUrl": "https://docs.google.com/presentation/d/1gn1H3rhVuBeyXEBSXtyakJQ27y8YCnI9zAheyVt7cE0/edit?usp=sharing",
   "steps": [
     {
       "id": "step-1",
