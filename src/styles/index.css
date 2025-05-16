@@ -217,7 +217,6 @@ body.dark-mode {
   padding-left: 40px !important; /* Sufficient padding for numbers, adjust as needed */
   margin-top: 0.5rem; /* Optional: add some space above the list */
   margin-bottom: 0.5rem; /* Optional: add some space below the list */
-  background-color: yellow !important; /* Diagnostic style */
 }
 
 .text-box-content .text-box-ordered-list .text-box-list-item {
@@ -225,7 +224,8 @@ body.dark-mode {
   padding-left: 5px; /* Optional: small padding for item text from number */
   margin-bottom: 0.25rem; /* Optional: space between list items */
   /* Override any text-align from parent if needed, lists usually look better left-aligned */
-  text-align: left !important; 
+  text-align: left !important;
+  white-space: normal !important; /* Crucial for overriding pre-wrap from parent */
 }
 
 
