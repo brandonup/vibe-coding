@@ -32,9 +32,9 @@ const TextBox = ({ id, label, content, asList = false }) => {
         style={asList ? { whiteSpace: 'normal', fontFamily: 'inherit', fontSize: 'inherit' } : {}}
       >
         {asList ? (
-          <ol>
+          <ol className="text-box-ordered-list">
             {content.split('\n').map((item, index) => (
-              item.trim() && <li key={`${id}-item-${index}`}>{item.replace(/^\d+\)\s*/, '')}</li>
+              item.trim() && <li key={`${id}-item-${index}`} className="text-box-list-item">{item.replace(/^\d+\)\s*/, '')}</li>
             ))}
           </ol>
         ) : (
