@@ -45,8 +45,8 @@ const Navbar = () => {
           <Link to="/presentation-deck" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Presentation Deck
           </Link>
-          <Link to="/steps" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
-            Steps
+          <Link to="/notes" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
+            Notes
           </Link>
         </div>
         <div className="navbar-end">

@@ -6,7 +6,7 @@ import AppBuilders from './pages/AppBuilders'; // Added AppBuilders import
 import ApiKeys from './pages/ApiKeys';
 import PromptExamples from './pages/PromptExamples';
 import PresentationDeck from './pages/PresentationDeck';
-import Steps from './pages/Steps';
+import Notes from './pages/Notes';
 import Toast from './components/Toast'; // Import Toast
 import './styles/index.css'; // Will create this file next
 
@@ -37,7 +37,7 @@ function App() {
             <Route path="/api-keys" element={<ApiKeys />} />
             <Route path="/prompt-examples" element={<PromptExamples />} />
             <Route path="/presentation-deck" element={<PresentationDeck />} />
-            <Route path="/steps" element={<Steps />} />
+            <Route path="/notes" element={<Notes />} />
           </Routes>
         </main>
         {/* Toast component is available if needed for global notifications */}
