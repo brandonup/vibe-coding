@@ -5,8 +5,9 @@ import { useState } from 'react';
  * @param {string} id - Unique identifier for the text box
  * @param {string} label - Label text displayed above content
  * @param {string} content - Main text content to display and copy
+ * @param {boolean} [asList=false] - Whether to render content as an ordered list
  */
-const TextBox = ({ id, label, content }) => {
+const TextBox = ({ id, label, content, asList = false }) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
@@ -27,7 +28,15 @@ const TextBox = ({ id, label, content }) => {
         </button>
       </div>
       <div className="text-box-content">
-        {content}
+        {asList ? (
+          <ol>
+            {content.split('\n').map((item, index) => (
+              item.trim() && <li key={`${id}-item-${index}`}>{item.replace(/^\d+\)\s*/, '')}</li>
+            ))}
+          </ol>
+        ) : (
+          content
+        )}
       </div>
     </div>
   );
