@@ -7,7 +7,7 @@
     {
       "id": "openai-key",
       "label": "OpenAI API Key",
-      "content": "YOUR_OPENAI_API_KEY_PLACEHOLDER"
+      "content": "https://docs.google.com/document/d/1mo6R19So2MT2twEGp43MAqVvBn6mh_-vQgL8i9fBVNU/edit?usp=sharingß"
     }
   ],
   "promptExamples": [
