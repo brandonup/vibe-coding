@@ -11,7 +11,15 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
-  text-align: center; /* Center all inline content */
+  /* text-align: center; */ /* Reverted: focus on block centering */
+}
+
+/* Style for the main app wrapper to help center content */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers flex items like .container horizontally */
+  min-height: 100vh;
 }
 
 :root {
@@ -140,7 +148,7 @@ body.dark-mode {
   margin-bottom: 1rem;
   color: var(--primary-color);
   font-size: 1.75rem;
-  text-align: center; /* Ensure section titles are centered */
+  /* text-align: center; */ /* Reverted */
 }
 
 /* TextBox */
@@ -162,17 +170,8 @@ body.dark-mode {
 .text-box-header h3 {
   font-size: 1.2rem;
   color: var(--text-color);
-  /* text-align: center; */ /* Headers within text-box are part of a flex container, centering them here might not be ideal if there's a button. Let's see the effect of body text-align first. */
-  /* Re-evaluating: text-box-header is display:flex, justify-content: space-between. Centering h3 here will only work if it's the only item or if the flex container itself is centered.
-     The body text-align:center should make the text inside h3 centered if h3 itself is not full width.
-     Let's hold off on this specific change for h3 and see the global effect.
-     The user wants "everything" centered. If the h3 text is still left, we'll address it.
-     The button in text-box-header is on the right. The h3 is on the left.
-     If we want the h3 text itself to be centered within its own bounding box, then text-align: center is correct.
-  */
-   text-align: center; /* Center text within the h3 element */
-   flex-grow: 1; /* Allow h3 to take available space if we want to center it relative to the button */
-
+  /* text-align: center; */ /* Reverted */
+  /* flex-grow: 1; */ /* Reverted */
 }
 
 .text-box-header button {
