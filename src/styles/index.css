@@ -151,6 +151,14 @@ body.dark-mode {
   /* text-align: center; */ /* Reverted */
 }
 
+/* Specific styling for the welcome section on the Home page */
+.home-welcome-section {
+  margin-left: auto;
+  margin-right: auto;
+  /* You might want to set a max-width as well if it becomes too wide on larger screens */
+  /* max-width: 800px; */ /* Example: Adjust as needed */
+}
+
 /* TextBox */
 .text-box {
   margin-bottom: 1.5rem;
