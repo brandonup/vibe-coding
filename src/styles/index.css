@@ -217,6 +217,7 @@ body.dark-mode {
   padding-left: 40px !important; /* Sufficient padding for numbers, adjust as needed */
   margin-top: 0.5rem; /* Optional: add some space above the list */
   margin-bottom: 0.5rem; /* Optional: add some space below the list */
+  background-color: yellow !important; /* Diagnostic style */
 }
 
 .text-box-content .text-box-ordered-list .text-box-list-item {
