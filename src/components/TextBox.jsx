@@ -33,7 +33,7 @@ const TextBox = ({ id, label, content, asList = false }) => {
       >
         {asList ? (
           <ol className="text-box-ordered-list">
-            {content.split('\n').map((item, index) => (
+            {content.split(/\r?\n|\\n/).map((item, index) => (
               item.trim() && <li key={`${id}-item-${index}`} className="text-box-list-item">{item.replace(/^\d+\)\s*/, '')}</li>
             ))}
           </ol>
