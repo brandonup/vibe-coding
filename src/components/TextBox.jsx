@@ -27,7 +27,10 @@ const TextBox = ({ id, label, content, asList = false }) => {
           {copied ? "Copied!" : "Copy"}
         </button>
       </div>
-      <div className="text-box-content">
+      <div
+        className="text-box-content"
+        style={asList ? { whiteSpace: 'normal', fontFamily: 'inherit', fontSize: 'inherit' } : {}}
+      >
         {asList ? (
           <ol>
             {content.split('\n').map((item, index) => (
