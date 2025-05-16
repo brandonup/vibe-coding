@@ -36,8 +36,8 @@ const Navbar = () => {
           <Link to="/app-builders" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             App Builders
           </Link>
-          <Link to="/api-keys" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
-            API Keys
+          <Link to="/instructions" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
+            Instructions
           </Link>
           <Link to="/prompt-examples" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Prompt Examples
@@ -45,8 +45,8 @@ const Navbar = () => {
           <Link to="/presentation-deck" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Presentation Deck
           </Link>
-          <Link to="/notes" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
-            Notes
+          <Link to="/api-keys" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
+            API Keys
           </Link>
         </div>
         <div className="navbar-end">

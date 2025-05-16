@@ -19,7 +19,7 @@
     {
       "id": "system-prompt-2",
       "label": "Software Developer Prompt",
-      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Software Developer\nGoal: Create an MVP that helps us learn [Anticipated Learning].\n\nTask: Create an app that meets the requirements below.  Keep the app as simple as possible while still achieving our goal. \n\nRequirements:\n[Paste requirements here]"
+      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Software Developer\nGoal: Create an MVP that helps us learn [Anticipated Learning].\nTask: Create an app that meets the requirements below.  Keep the app as simple as possible while still achieving our goal. \n\nRequirements:\n[Paste requirements here]"
     }
   ],
   "deckUrl": "https://docs.google.com/presentation/d/1gn1H3rhVuBeyXEBSXtyakJQ27y8YCnI9zAheyVt7cE0/edit?usp=sharing"
