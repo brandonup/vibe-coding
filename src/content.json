@@ -14,29 +14,12 @@
     {
       "id": "system-prompt-1",
       "label": "Product Manager Prompt",
-      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.
-
-Prompt:
-Role: You are a highly experienced Product Manager.
-Goal: Create an MVP that helps us learn [Anticipated Learning]
-Task: Using the MVP description below, create a set of requirements my coding assistant can use to create this app. Keep the app as simple as possible while still achieving our goal. 
-
-MVP description: 
-[A short description of the site including functionality, fields, and any other requirements]"
+      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Product Manager.\nGoal: Create an MVP that helps us learn [Anticipated Learning]\nTask: Using the MVP description below, create a set of requirements my coding assistant can use to create this app. Keep the app as simple as possible while still achieving our goal. \n\nMVP description: \n[A short description of the site including functionality, fields, and any other requirements]"
     },
     {
       "id": "system-prompt-2",
       "label": "Software Developer Prompt",
-      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.
-
-Prompt:
-Role: You are a highly experienced Software Developer
-Goal: Create an MVP that helps us learn [Anticipated Learning].
-
-Task: Create an app that meets the requirements below.  Keep the app as simple as possible while still achieving our goal. 
-
-Requirements:
-[Paste requirements here]"
+      "content": "You are a highly experienced Prompt Engineer. Please improve my prompt below.\n\nPrompt:\nRole: You are a highly experienced Software Developer\nGoal: Create an MVP that helps us learn [Anticipated Learning].\n\nTask: Create an app that meets the requirements below.  Keep the app as simple as possible while still achieving our goal. \n\nRequirements:\n[Paste requirements here]"
     }
   ],
   "deckUrl": "https://docs.google.com/presentation/d/1gn1H3rhVuBeyXEBSXtyakJQ27y8YCnI9zAheyVt7cE0/edit?usp=sharing"
