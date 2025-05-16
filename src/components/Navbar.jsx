@@ -33,6 +33,9 @@ const Navbar = () => {
           <Link to="/" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             Home
           </Link>
+          <Link to="/app-builders" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
+            App Builders
+          </Link>
           <Link to="/api-keys" className="navbar-item" onClick={isMobileMenuOpen ? toggleMobileMenu : null}>
             API Keys
           </Link>
