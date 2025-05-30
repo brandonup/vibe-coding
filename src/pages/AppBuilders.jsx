@@ -1,20 +1,20 @@
 import Section from '../components/Section';
+import contentData from '../content.json';
 
 const AppBuilders = () => {
+  const { title, introText, builders } = contentData.appBuildersPage;
+
   return (
-    <Section title="App Builders">
-      <p>Here are some useful AI App Builders:</p>
+    <Section title={title}>
+      <p>{introText}</p>
       <ul>
-        <li>
-          <a href="https://replit.com/" target="_blank" rel="noopener noreferrer">
-            Replit
-          </a>
-        </li>
-        <li>
-          <a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer">
-            Lovable
-          </a>
-        </li>
+        {builders.map((builder, index) => (
+          <li key={`${builder.name}-${index}`}>
+            <a href={builder.url} target="_blank" rel="noopener noreferrer">
+              {builder.name}
+            </a>
+          </li>
+        ))}
       </ul>
     </Section>
   );

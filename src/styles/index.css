@@ -204,7 +204,7 @@ body.dark-mode {
   padding: 0.75rem;
   border-radius: 4px;
   border: 1px solid var(--border-color);
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; -- REMOVED, will inherit from body */
   font-size: 0.95rem;
   text-align: left; /* Override body center for pre-wrap content, usually code/logs look better left-aligned */
   /* User wants *everything* centered. Let's try text-align: center here too and see. If it looks bad for pre-wrap, we can revert. */
@@ -304,4 +304,12 @@ body.dark-mode {
   .navbar-brand .navbar-item.logo-text {
     margin-right: auto; /* Pushes burger to the right */
   }
+}
+
+/* Make text black and use standard sans-serif font for Instructions page TextBoxes */
+
+.instructions-page-section .text-box-content { /* Applies to both text boxes now */
+  color: #000000 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: inherit !important;
 }
